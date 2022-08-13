@@ -1,0 +1,188 @@
+/****************************FONTS****************************/
+@font-face {
+  font-family: 'ft88regular';
+  src: url('ft88-regular-webfont.woff2') format('woff2'),
+    url('ft88-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'basteleurmoonlight';
+  src: url('basteleur-moonlight-webfont.woff2') format('woff2'),
+    url('basteleur-moonlight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'orchardlinear';
+  src: url('orchard-linear-webfont.woff2') format('woff2'),
+    url('orchard-linear-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'new_romanticsregular';
+  src: url('romantic-webfont.woff2') format('woff2'),
+    url('romantic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/****************************ATTRIBUTES****************************/
+body {
+  margin: 0;
+  background-color: #080017;
+  color: silver;
+  text-align: center;
+  font-family: 'basteleurmoonlight';
+}
+a {
+  text-decoration: none;
+  color: #607EAA;
+}
+a:hover{
+  color: white
+}
+
+button {
+  font-family: 'ft88regular';
+}
+
+h6 {
+  position: absolute;
+}
+
+h2 {
+  color: white
+}
+
+h3 {
+  color: #607EAA;
+}
+
+hr{border-bottom: none;
+  border-top: 5px dotted;
+color: silver;
+width:20%;
+margin-top: 100px;
+margin-bottom: 100px;}
+
+footer{
+  text-align: center;
+}
+/****************************CLASSES****************************/
+
+
+.pres {
+  margin: 0;
+  position: absolute;
+  bottom: 72%;
+  color: black;
+  font-size: 30px;
+  font-family: 'orchardlinear';
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.title {
+  margin: 0;
+  position: absolute;
+  bottom: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: black;
+  font-family: 'basteleurmoonlight';
+}
+
+.digi {
+  font-family: 'new_romanticsregular';
+  letter-spacing: .15rem;
+}
+
+.webdev {
+  font-family: 'ft88regular';
+}
+.mark{
+  font-family: 'new_romanticsregular';
+  letter-spacing: 0.7rem;
+  margin-top: 70px;
+  text-align: right;
+  font-size: 25px;
+}
+.digimark{
+  float: right;
+margin-left: 30px;
+margin-top: 30px;
+}
+.footer {
+  position: absolute;
+  top: 600%;
+  left: 15%;
+}
+
+.profile {
+  width: 70%;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+.skill-row {
+  width: 100%;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+.expat {
+  float: left;
+  margin-right: 30px;
+}
+
+.grad {
+  float: left;
+  margin-right: 30px;
+}
+.passion{
+  float: left;
+  margin-right: 30px;
+}
+.coding {
+  float: left;
+  margin-right: 30px;
+  padding-top: 20px;
+}
+.sysanal{
+  margin-top: 70px;
+  font-family: 'ft88regular';
+
+}
+
+.btm{
+  float: left;
+  margin-right: 30px;
+  padding-top: 20px;
+
+}
+
+.fade-in-text {
+  font-family: 'orchardlinear';
+  font-size: 70px;
+  position: absolute;
+  color: white;
+  animation: fadeIn 10s;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
